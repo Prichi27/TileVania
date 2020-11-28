@@ -26,15 +26,18 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other) {
+    private void OnTriggerExit2D(Collider2D other) 
+    {
         FlipEnemy();
     }
 
-    private bool IsFacingRight(){
+    private bool IsFacingRight()
+    {
         return transform.localScale.x > 0;
     }
 
-    private void FlipEnemy(){
+    private void FlipEnemy()
+    {
         transform.localScale = new Vector2(-(Mathf.Sign(_rigidBody.velocity.x)), 1f);
         //movementSpeed = -movementSpeed;
     }

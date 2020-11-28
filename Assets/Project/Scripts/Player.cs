@@ -18,6 +18,9 @@ public class Player : MonoBehaviour
     [Range(5, 1000)]
     float jumpSpood = 525;
 
+    [SerializeField] Vector2 deathAnimation = new Vector2(25f, 25f);
+    [SerializeField] float deathRotation = 10f;
+
     // Cached component references
     private Rigidbody2D _rigidBody;
     private Animator _animator;
@@ -30,6 +33,7 @@ public class Player : MonoBehaviour
     private float _movementVertical;
     private bool _isJumping;
     private bool _isTouchingLadder;
+    private bool _isAlive = true;
 
     private void Start()
     {
@@ -48,10 +52,12 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!_isAlive) return;
         Run();
         Jump();
         FlipMountainDew();
         ClimbLadder();
+        Die();
     }
 
     private void GetPlayerInput()
@@ -123,6 +129,16 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(Mathf.Sign(_rigidBody.velocity.x), 1f);
         }
 
+    }
+
+    private void Die()
+    {
+        if(_collider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        {
+            _animator.SetTrigger("Die");
+            _rigidBody.velocity = deathAnimation;
+            _isAlive = false;
+        }
     }
 
 }
