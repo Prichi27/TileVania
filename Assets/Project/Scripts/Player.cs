@@ -15,11 +15,14 @@ public class Player : MonoBehaviour
     int climbSpood = 100;
 
     [SerializeField]
-    [Range(5, 1000)]
+    [Range(5, 2000)]
     float jumpSpood = 525;
 
     [SerializeField] Vector2 deathAnimation = new Vector2(25f, 25f);
     [SerializeField] float deathRotation = 10f;
+
+    [SerializeField] GameObject squashFx;
+
 
     // Cached component references
     private Rigidbody2D _rigidBody;
@@ -52,7 +55,11 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!_isAlive) return;
+        if (!_isAlive)
+        {
+            return;
+        }
+
         Run();
         Jump();
         FlipMountainDew();
@@ -131,13 +138,31 @@ public class Player : MonoBehaviour
 
     }
 
+    IEnumerator RotatePlayer()
+    {
+        float time = 0;
+
+        GameObject particle = Instantiate(squashFx, transform.position, Quaternion.identity);
+
+        while (time < 2.5)
+        {
+            transform.RotateAround(transform.position, Vector3.forward, deathRotation * Time.fixedDeltaTime);
+            time += Time.fixedDeltaTime;
+            yield return null;
+        }
+
+        GameObject particle2 = Instantiate(squashFx, transform.position, Quaternion.identity);
+      
+    }
+
     private void Die()
     {
-        if(_collider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        if(_collider.IsTouchingLayers(LayerMask.GetMask("Enemy", "Spikes")) || _bottomCollider.IsTouchingLayers(LayerMask.GetMask("Spikes")) )
         {
             _animator.SetTrigger("Die");
             _rigidBody.velocity = deathAnimation;
             _isAlive = false;
+            StartCoroutine("RotatePlayer");
         }
     }
 
