@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: 5abbd999d8288c245a7121aca9b1dde7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7626788804443068029
+    second: SPA_Enemy_Front_0
+  - first:
+      213: -1360831651253571117
+    second: SPA_Enemy_Front_1
+  - first:
+      213: -378683973420536266
+    second: SPA_Enemy_Front_2
+  - first:
+      213: -3300734906503842398
+    second: SPA_Enemy_Front_3
+  - first:
+      213: 2160118375702476873
+    second: SPA_Enemy_Front_4
+  - first:
+      213: 1497659378038305875
+    second: SPA_Enemy_Front_5
+  - first:
+      213: 8600329279515350578
+    second: SPA_Enemy_Front_6
+  - first:
+      213: -2356382206319788959
+    second: SPA_Enemy_Front_7
+  - first:
+      213: -3492442464947917316
+    second: SPA_Enemy_Front_8
+  - first:
+      213: 1222232303681565464
+    second: SPA_Enemy_Front_9
+  - first:
+      213: 9168094627897481661
+    second: SPA_Enemy_Front_10
+  - first:
+      213: -5829300324027559457
+    second: SPA_Enemy_Front_11
+  - first:
+      213: -2015357902800761409
+    second: SPA_Enemy_Front_12
+  - first:
+      213: 2474051279219273156
+    second: SPA_Enemy_Front_13
+  - first:
+      213: -8390333679886005725
+    second: SPA_Enemy_Front_0
+  - first:
+      213: -8810642173775219773
+    second: SPA_Enemy_Front_1
+  - first:
+      213: -6926928306926772334
+    second: SPA_Enemy_Front_2
+  - first:
+      213: -4702898549930377352
+    second: SPA_Enemy_Front_3
+  - first:
+      213: -7261793877215486020
+    second: SPA_Enemy_Front_4
+  - first:
+      213: 5917313595692324926
+    second: SPA_Enemy_Front_5
+  - first:
+      213: 6146126974882690746
+    second: SPA_Enemy_Front_6
+  - first:
+      213: 632178293251164860
+    second: SPA_Enemy_Front_7
+  - first:
+      213: 4963762471351150850
+    second: SPA_Enemy_Front_8
+  - first:
+      213: -2877530362656877778
+    second: SPA_Enemy_Front_9
+  - first:
+      213: 3146842257064199712
+    second: SPA_Enemy_Front_10
+  - first:
+      213: 6541361848798492585
+    second: SPA_Enemy_Front_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a0667d8fb8f8b80800000000000000
+      internalID: -8390333679886005725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c37d0daf9f4ab580800000000000000
+      internalID: -8810642173775219773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1801c76b9edf90800000000000000
+      internalID: -6926928306926772334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f33b49fa2fbbeb0800000000000000
+      internalID: -4702898549930377352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfd67c71fce83b90800000000000000
+      internalID: -7261793877215486020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3894df2d558e1250800000000000000
+      internalID: 5917313595692324926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6345a8bed6b4550800000000000000
+      internalID: 6146126974882690746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac2fbeec2f5c800800000000000000
+      internalID: 632178293251164860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209ec462ba3d2e440800000000000000
+      internalID: 4963762471351150850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e239f678165f018d0800000000000000
+      internalID: -2877530362656877778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Enemy_Front_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02600803c54dbab20800000000000000
+      internalID: 3146842257064199712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
